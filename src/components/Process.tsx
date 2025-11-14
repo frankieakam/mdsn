@@ -50,14 +50,14 @@ export default function Process() {
             {steps.map((step, index) => (
               <div key={index} className="relative text-center">
                 {/* Step Number */}
-                <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mt-6 mb-6 relative z-10">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mt-6 mb-6 relative z-10">
                   <span className="text-white bg-black rounded-full px-2 py-0 font-bold text-lg">{index + 1}</span>
                 </div>
                 
                 {/* Step Content */}
                 <div className="bg-gray-50 rounded-lg p-6 h-64">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <step.icon className="w-6 h-6 text-accent" />
+                  <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
+                    <step.icon className="w-6 h-6 text-black" />
                   </div>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-3">

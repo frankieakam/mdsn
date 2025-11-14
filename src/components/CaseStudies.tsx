@@ -95,12 +95,12 @@ export default function CaseStudies() {
                 )}
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-black/40 text-white px-3 py-1 rounded-full text-sm font-medium">
                     {study.category}
                   </span>
                 </div>
                 <div className="absolute bottom-4 left-4">
-                  <span className="bg-white/90 text-gray-700 px-2 py-1 rounded text-xs">
+                  <span className="bg-white/90 text-gray-700 px-2 py-1 rounded-full text-xs">
                     {study.duration}
                   </span>
                 </div>
@@ -108,7 +108,7 @@ export default function CaseStudies() {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-accent transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-black transition-colors">
                   {study.title}
                 </h3>
                 
@@ -120,7 +120,7 @@ export default function CaseStudies() {
                 <div className="space-y-2 mb-4">
                   {study.results.map((result, index) => (
                     <div key={index} className="flex items-center space-x-2">
-                      <div className="w-2 h-2 bg-accent rounded-full"></div>
+                      <div className="w-2 h-2 bg-black rounded-full"></div>
                       <span className="text-sm text-gray-700 font-medium">{result}</span>
                     </div>
                   ))}

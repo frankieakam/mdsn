@@ -119,9 +119,9 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-accent flex flex-col group"
+              className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-black flex flex-col group"
             >
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+              <div className="w-12 h-12 flex items-center justify-center mb-6 text-black transition-colors">
                 <service.icon className="w-6 h-6 text-accent" />
               </div>
               
@@ -135,7 +135,7 @@ export default function Services() {
               
               {/* Price Display */}
               <div className="mb-4 p-4 bg-gray-50 rounded-lg">
-                <div className="text-2xl font-bold text-accent mb-1">
+                <div className="text-2xl font-bold text-black mb-1">
                   {service.price}
                 </div>
                 <div className="text-sm text-gray-500 flex items-center space-x-1">
@@ -155,7 +155,7 @@ export default function Services() {
               <ul className="space-y-3 mb-6 grow">
                 {service.includes.map((item, itemIndex) => (
                   <li key={itemIndex} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-accent mt-0.5 shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-black mt-0.5 shrink-0" />
                     <span className="text-gray-600 text-sm">{item}</span>
                   </li>
                 ))}
@@ -195,17 +195,17 @@ export default function Services() {
             </h3>
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="text-center p-4">
-                <CreditCard className="w-8 h-8 text-accent mx-auto mb-2" />
+                <CreditCard className="w-8 h-8 text-black mx-auto mb-2" />
                 <h4 className="font-semibold text-gray-900 mb-2">Flexible Payment Plans</h4>
                 <p className="text-gray-600 text-sm">Spread your investment with customized payment schedules</p>
               </div>
               <div className="text-center p-4">
-                <Calendar className="w-8 h-8 text-accent mx-auto mb-2" />
+                <Calendar className="w-8 h-8 text-black mx-auto mb-2" />
                 <h4 className="font-semibold text-gray-900 mb-2">Monthly Retainers</h4>
                 <p className="text-gray-600 text-sm">Ongoing support, marketing, and maintenance packages</p>
               </div>
               <div className="text-center p-4">
-                <CheckCircle className="w-8 h-8 text-accent mx-auto mb-2" />
+                <CheckCircle className="w-8 h-8 text-black mx-auto mb-2" />
                 <h4 className="font-semibold text-gray-900 mb-2">Custom Add-ons</h4>
                 <p className="text-gray-600 text-sm">Tailor your package with specific features and services</p>
               </div>

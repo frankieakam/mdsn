@@ -224,7 +224,7 @@ export default function WhyUs() {
                 'Guaranteed results'
               ].map((item) => (
                 <div key={item} className="flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-accent" />
+                  <CheckCircle className="w-5 h-5 text-black" />
                   <span className="text-gray-700">{item}</span>
                 </div>
               ))}
@@ -233,10 +233,10 @@ export default function WhyUs() {
 
           {/* Puzzle Solution Visual */}
           <div className="relative">
-            {/* Main Puzzle Container - FIXED: Made responsive */}
+            {/* Main Puzzle Container - responsive */}
             <div className="relative w-64 h-64 md:w-96 md:h-96 mx-auto">
               
-              {/* 1. Incomplete Puzzle (Top Left) - Made responsive */}
+              {/* 1. Incomplete Puzzle (Top Left) - responsive */}
               <div className="absolute left-2 top-2 md:left-8 md:top-8 transform">
                 <div className="bg-linear-to-br from-gray-100 to-gray-200 rounded-2xl p-3 md:p-4 shadow-lg border border-dashed border-red-600">
                   <div className="grid grid-cols-2 gap-1 md:gap-2">
@@ -264,7 +264,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 2. Super Labs Nigeria Solution (Right Center) - Made responsive */}
+              {/* 2. Super Labs Nigeria Solution (Right Center) - responsive */}
               <div className="absolute -right-4 md:right-12 top-1/3 transform -translate-y-1/2 z-10">
                 <div className="bg-white border border-blue-500 rounded-2xl p-2 md:p-4 shadow-2xl animate-float max-w-[100px] md:max-w-[140px]">
                   <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center mb-1 md:mb-2 mx-auto">
@@ -284,7 +284,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 3. Complete Puzzle (Bottom Center) - Made responsive */}
+              {/* 3. Complete Puzzle (Bottom Center - responsive */}
               <div className="absolute left-1/2 -bottom-4 md:bottom-2 transform -translate-x-1/2">
                 <div className="bg-linear-to-br from-green-50 to-emerald-100 rounded-2xl p-3 md:p-4 shadow-lg border border-green-200">
                   <div className="grid grid-cols-2 gap-1 md:gap-2">
@@ -308,7 +308,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 4. Client (Left Center) - Made responsive */}
+              {/* 4. Client (Left Center) - responsive */}
               <div className="absolute -left-4 md:left-2 top-40 md:top-60 transform -translate-y-1/2">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 md:w-14 md:h-14 bg-linear-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center shadow-lg border border-blue-500 mb-1">
@@ -353,7 +353,7 @@ export default function WhyUs() {
               <svg className="md:hidden absolute inset-0 w-full h-full" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
                 {/* Line 1: Incomplete Puzzle (top-left) → Super Labs Nigeria (right-center) */}
                 <path 
-                  d="M175,60 Q250,80 320,150"
+                  d="M176,60 Q250,80 320,150"
                   stroke="#3B82F6" 
                   strokeWidth="2" 
                   fill="none"
@@ -362,7 +362,7 @@ export default function WhyUs() {
   
                 {/* Line 2: Super Labs Nigeria → Complete Puzzle (bottom-center) */}
                 <path 
-                  d="M300,160 Q300,225 271,245"
+                  d="M300,160 Q300,225 272,245"
                   stroke="#3B82F6" 
                   strokeWidth="2" 
                   fill="none"
@@ -371,7 +371,7 @@ export default function WhyUs() {
   
                 {/* Line 3: Complete Puzzle → Client (left-center) */}
                 <path 
-                  d="M123,249 Q138,249 55,250"
+                  d="M122,249 Q138,249 55,250"
                   stroke="#3B82F6" 
                   strokeWidth="2" 
                   fill="none"
@@ -380,7 +380,7 @@ export default function WhyUs() {
               </svg>
             </div>
 
-            {/* Floating Success Elements - Made responsive */}
+            {/* Floating Success Elements - responsive */}
             <div className="absolute -top-2 -right-2 md:-top-4 md:right-12 bg-white rounded-full p-1 md:p-2 shadow-lg border border-green-500">
               <CheckCircle className="w-3 h-3 md:w-4 md:h-4 text-green-500" />
             </div>
