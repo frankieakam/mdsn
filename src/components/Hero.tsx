@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
 
           {/* Frankie Consultant - Right Side Integration */}
-          <div className="relative z-20 flex justtify-center md:justify-end items-center">
+          <div className="relative z-20 flex justify-center md:justify-end items-center">
             <FrankieConsultant />
           </div>
         </div>
