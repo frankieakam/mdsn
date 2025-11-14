@@ -73,7 +73,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 2. Super Labs Solution (Right Center) - More Spaced */}
+              {/* 2. Super Labs Nigeria Solution (Right Center) - More Spaced */}
               <div className="absolute right-[-9] top-1/3 transform -translate-y-1/2 z-10">
                 <div className="bg-white border border-blue-500 rounded-2xl p-4 shadow-2xl animate-float max-w-[140px]">
                   <div className="w-19 h-19 flex items-center justify-center mb-2 mx-auto">
@@ -117,7 +117,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 4. Client/User (Left Center) - More Spaced */}
+              {/* 4. Client (Left Center) - More Spaced */}
               <div className="absolute left-[-9] top-60 transform -translate-y-1/2">
                 <div className="flex flex-col items-center">
                   <div className="w-14 h-14 bg-linear-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center shadow-lg border border-blue-500 mb-[-1]">
@@ -130,7 +130,7 @@ export default function WhyUs() {
 
               {/* Connection Lines with Better Spacing */}
               <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
-                {/* Line 1: Incomplete Puzzle → Super Labs (Curved from Top Left to Right Center) */}
+                {/* Line 1: Incomplete Puzzle → Super Labs Nigeria (Curved from Top Left to Right Center) */}
                 <path 
                   d="M160,120 Q300,9 300,200"
                   stroke="#3B82F6" 
@@ -140,7 +140,7 @@ export default function WhyUs() {
                   className="animate-pulse"
                 />
                 
-                {/* Line 2: Super Labs → Complete Puzzle (Curved from Right Center to Bottom Center) */}
+                {/* Line 2: Super Labs Nigeria → Complete Puzzle (Curved from Right Center to Bottom Center) */}
                 <path 
                   d="M300,200 Q300,280 260,300"
                   stroke="#3B82F6" 
@@ -162,7 +162,7 @@ export default function WhyUs() {
               </svg>
             </div>
 
-            {/* Floating Success Elements - Adjusted Position */}
+            {/* Floating Success Elements */}
             <div className="absolute -top-4 -right-4 bg-white rounded-full p-2 shadow-lg border border-green-500">
               <CheckCircle className="w-4 h-4 text-green-500" />
             </div>

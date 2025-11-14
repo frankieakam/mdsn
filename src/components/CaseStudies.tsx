@@ -2,49 +2,64 @@
 
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
+import { useState } from 'react';
 
 export default function CaseStudies() {
+  const [imageErrors, setImageErrors] = useState<{[key: number]: boolean}>({});
+
+  const handleImageError = (id: number) => {
+    setImageErrors(prev => ({...prev, [id]: true}));
+  };
+
   const caseStudies = [
     {
       id: 1,
-      title: 'E-commerce Platform Transformation',
-      description: 'Transformed a local retail business into a scalable e-commerce platform with integrated payment systems and inventory management.',
-      results: ['+300% online sales', '+45% customer retention', '-60% operational costs'],
-      image: '/case-studies/ecommerce.jpg', // You'll need to add this image
-      category: 'E-commerce',
-      duration: '3 months'
+      title: 'Nokon Bespoke - Premium Tailoring Digital Presence',
+      description: 'Transformed a traditional bespoke tailoring business into a modern digital brand with seamless client consultation workflows and premium online positioning.',
+      results: ['Streamlined consultation process', 'Professional brand positioning', 'Mobile-optimized client experience'],
+      image: '/case-studies/nokon-bespoke.png', 
+      category: 'Custom Project',
+      duration: '2 weeks',
+      videoUrl: 'https://youtube.com/your-nokon-case-study'
     },
-    {
-      id: 2,
-      title: 'SaaS Product Launch & Scaling',
-      description: 'Developed and launched a B2B SaaS product from concept to market, including UX design, development, and growth strategy.',
-      results: ['+5000 users in 6 months', '+89% user satisfaction', '+200% MRR growth'],
-      image: '/case-studies/saas.jpg', // You'll need to add this image
-      category: 'SaaS',
-      duration: '6 months'
-    },
-    {
-      id: 3,
-      title: 'Author Platform & Book Marketing',
-      description: 'Built a comprehensive author platform with personal branding, website, and Amazon Kindle marketing strategy.',
-      results: ['#1 Amazon Bestseller', '+10,000 book sales', '+200% social media growth'],
-      image: '/case-studies/author.jpg', // You'll need to add this image
-      category: 'Publishing',
-      duration: '2 months'
-    },
-    {
-      id: 4,
-      title: 'Corporate Digital Overhaul',
-      description: 'Complete digital transformation for an established corporation including rebranding, web development, and digital infrastructure.',
-      results: ['+150% web traffic', '+75% lead generation', '+40% brand recognition'],
-      image: '/case-studies/corporate.jpg', // You'll need to add this image
-      category: 'Corporate',
-      duration: '4 months'
-    }
+    // {
+    //   id: 2,
+    //   title: 'SaaS Product Launch & Scaling',
+    //   description: 'Developed and launched a B2B SaaS product from concept to market, including UX design, development, and growth strategy.',
+    //   results: ['+5000 users in 6 months', '+89% user satisfaction', '+200% MRR growth'],
+    //   image: '/case-studies/saas.jpg', // You'll need to add this image
+    //   category: 'SaaS',
+    //   duration: '6 months',
+    //   videoUrl: 'https://youtube.com/your-saas-case-study'
+    // },
+    // {
+    //   id: 3,
+    //   title: 'Author Platform & Book Marketing',
+    //   description: 'Built a comprehensive author platform with personal branding, website, and Amazon Kindle marketing strategy.',
+    //   results: ['#1 Amazon Bestseller', '+10,000 book sales', '+200% social media growth'],
+    //   image: '/case-studies/author.jpg', // You'll need to add this image
+    //   category: 'Publishing',
+    //   duration: '2 months',
+    //   videoUrl: 'https://youtube.com/your-author-case-study'
+    // },
+    // {
+    //   id: 4,
+    //   title: 'Corporate Digital Overhaul',
+    //   description: 'Complete digital transformation for an established corporation including rebranding, web development, and digital infrastructure.',
+    //   results: ['+150% web traffic', '+75% lead generation', '+40% brand recognition'],
+    //   image: '/case-studies/corporate.jpg', // You'll need to add this image
+    //   category: 'Corporate',
+    //   duration: '4 months',
+    //   videoUrl: 'https://youtube.com/your-corporate-case-study'
+    // }
   ];
 
+  const handleViewCaseStudy = (videoUrl: string) => {
+    window.open(videoUrl, '_blank', 'noopener,noreferrer');
+  };
+
   return (
-    <section id="case-studies" className="py-16 bg-white">
+    <section id="case-studies" className="py-20 bg-white scroll-mt-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -63,6 +78,21 @@ export default function CaseStudies() {
             >
               {/* Image Container */}
               <div className="relative h-48 bg-linear-to-br from-accent/20 to-gray-200 overflow-hidden">
+                {!imageErrors[study.id] ? (
+                  <Image
+                    src={study.image}
+                    alt={study.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    onError={() => handleImageError(study.id)}
+                    priority={study.id === 1}
+                  />
+                ) : (
+                  <div className="w-full h-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">{study.category}</span>
+                  </div>
+                )}
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300" />
                 <div className="absolute top-4 left-4">
                   <span className="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -97,7 +127,9 @@ export default function CaseStudies() {
                 </div>
 
                 {/* CTA Button */}
-                <button className="w-full bg-white border border-black text-gray-700 py-3 rounded-lg font-semibold hover:bg-accent hover:text-white hover:bg-black transition-all duration-300 flex items-center justify-center space-x-2 group/btn">
+                <button  
+                  onClick={() => handleViewCaseStudy(study.videoUrl)} 
+                  className="w-full bg-white border border-black text-gray-700 py-3 rounded-lg font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group/btn cursor-pointer">
                   <span>View Case Study</span>
                   <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                 </button>
@@ -105,24 +137,6 @@ export default function CaseStudies() {
             </div>
           ))}
         </div>
-
-        {/* Bottom CTA */}
-        {/* <div className="text-center mt-12">
-          <div className="bg-gray-50 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ready to Create Your Success Story?
-            </h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Let&apos;s work together to transform your business and achieve remarkable results.
-            </p>
-            <a
-              href="#contact"
-              className="inline-block border border-blue-500 text-blue-500 px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors"
-            >
-              Start Your Project
-            </a>
-          </div>
-        </div> */}
       </div>
     </section>
   );

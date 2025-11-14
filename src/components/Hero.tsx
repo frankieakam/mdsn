@@ -1,5 +1,7 @@
 'use client';
 
+import FrankieConsultant from './FrankieConsultant';
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-linear-to-br from-gray-50 to-gray-100 relative overflow-hidden">
@@ -17,7 +19,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 py-16 relative z-10">
+      <div className="container mx-auto px-4 py-10 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6 relative z-20">
@@ -43,9 +45,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Empty column to maintain grid layout */}
-          <div className="relative z-20">
-            {/* This space is intentionally left empty to maintain the grid structure */}
+          {/* Frankie Consultant - Right Side Integration */}
+          <div className="relative z-20 flex justtify-center md:justify-end items-center">
+            <FrankieConsultant />
           </div>
         </div>
       </div>

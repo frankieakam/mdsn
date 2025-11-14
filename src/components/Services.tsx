@@ -104,7 +104,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50 scroll-mt-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -187,7 +187,7 @@ export default function Services() {
           ))}
         </div>
 
-        {/* Enhanced Custom Projects CTA */}
+        {/* Custom Projects CTA */}
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg border border-gray-200">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">

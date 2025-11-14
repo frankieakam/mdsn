@@ -22,24 +22,6 @@ export default function CTA() {
           </button>
         </div>
       </div>
-      {/* <div className="text-center mt-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            From Vision to Reality
-          </h2>
-        </div> */}
-
-        {/* Testimonial */}
-        {/* <div className="max-w-3xl mx-auto text-center mb-4">
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <div className="text-6xl text-gray-200 mb-4">&ldquo;</div>
-            <p className="text-xl text-gray-700 italic mb-6">
-              Super Labs Nigeria took our idea and built a complete brand and website. We didn&apos;t have to manage a thing. The process was seamless and the results exceeded our expectations.
-            </p>
-            <div className="font-semibold text-gray-900">
-              Jane Doe, Founder of &apos;Bakery Name&apos;
-            </div>
-          </div>
-        </div> */}
     </section>
   );
 }

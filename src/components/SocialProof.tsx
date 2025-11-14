@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-// Import all your logo images
+// Import all logo images
 import shopifyLogo from '@/assets/tech-logos/shopify.png';
 import wordpressLogo from '@/assets/tech-logos/wordpress.png';
 import xLogo from '@/assets/tech-logos/x.png';

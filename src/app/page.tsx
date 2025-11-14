@@ -10,7 +10,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 
-// Reusable scroll reveal component
+// Scroll reveal component
 const ScrollReveal = ({ children }: { children: React.ReactNode }) => {
   return (
     <motion.div
@@ -45,13 +45,11 @@ export default function Home() {
         <Process />
       </ScrollReveal>
 
-      {/* <ScrollReveal> */}
         <Services />
-      {/* </ScrollReveal> */}
 
-      {/* <ScrollReveal> */}
+      <ScrollReveal>
         <CaseStudies />
-      {/* </ScrollReveal> */}
+      </ScrollReveal>
 
       <ScrollReveal>
         <CTA />

@@ -17,7 +17,7 @@ export default function Process() {
     {
       icon: Users,
       title: 'Assemble & Execute',
-      description: 'We hand-pick the ideal specialists from our network and manage the entire build process.'
+      description: 'We select the ideal specialists from our network and manage the entire process.'
     },
     {
       icon: Rocket,
@@ -27,13 +27,13 @@ export default function Process() {
   ];
 
   return (
-    <section id="our-process" className="py-20 bg-white">
+    <section id="our-process" className="py-18 bg-white scroll-mt-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-0">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our &ldquo;Lab Protocol&rdquo;: A Results-Driven Process
+            Our &ldquo;Lab Protocol&rdquo;: Results-Driven Process
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             This builds immense trust and shows you have a system.
           </p>
         </div>
