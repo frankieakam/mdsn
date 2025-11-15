@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6 relative z-20">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight text-center sm:text-left">
               We Build & Grow Your Digital Business.
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
