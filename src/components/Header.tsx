@@ -117,7 +117,7 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-black">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo with Image - Added onClick handler */}
+          {/* Logo with Image - With onClick handler */}
           <Link 
             href="/" 
             className="flex items-center space-x-3 group"
@@ -166,8 +166,8 @@ export default function Header() {
             aria-label="Toggle menu"
           >
             <div className="flex flex-col space-y-1.5">
-              <div className="w-6 h-0.5 bg-gray-600"></div>
-              <div className="w-6 h-0.5 bg-gray-600 ml-2"></div>
+              <div className="w-8 h-1.5 bg-gray-600"></div>
+              <div className="w-6 h-1.5 bg-gray-600 ml-2"></div>
             </div>
           </button>
         </div>

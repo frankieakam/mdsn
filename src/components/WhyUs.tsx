@@ -27,10 +27,11 @@ export default function WhyUs() {
 
             <div className="space-y-4">
               {[
-                'Single point of contact',
-                'Expert team assembly',
-                'End-to-end management',
-                'Guaranteed results'
+                'Single point of contact for international projects',
+                '24/7 development cycles across timezones',
+                'Global payment and communication systems',
+                'Vetted network of world-class digital specialists',
+                'End-to-end project management and delivery',
               ].map((item) => (
                 <div key={item} className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-black" />

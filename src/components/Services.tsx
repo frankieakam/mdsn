@@ -7,7 +7,7 @@ export default function Services() {
     {
       icon: Store,
       title: 'The Digital Storefront',
-      for: 'Small Businesses, Local Shops, Freelancers',
+      for: 'Small Businesses Worldwide, International Freelancers',
       includes: [
         'Professional Branding',
         '5-Page Website',
@@ -30,7 +30,7 @@ export default function Services() {
     {
       icon: TrendingUp,
       title: 'The Growth Engine',
-      for: 'E-commerce Stores, SaaS Companies, Online Coaches',
+      for: 'Global E-commerce Stores, International SaaS Companies, Online Coaches',
       includes: [
         'Everything in Digital Storefront',
         'E-commerce/Premium Business Setup',
@@ -53,7 +53,7 @@ export default function Services() {
     {
       icon: BookOpen,
       title: 'The Author Suite',
-      for: 'Authors, Speakers, Influencers',
+      for: 'International Authors, Global Speakers and Influencers',
       includes: [
         'Personal Branding',
         'Author Website',
@@ -76,7 +76,7 @@ export default function Services() {
     {
       icon: Building2,
       title: 'The Enterprise Hub',
-      for: 'NGOs, Government Offices, Medium-to-Large Companies',
+      for: 'Multinational NGOs, Global Corporations',
       includes: [
         'Corporate Branding & Identity',
         'Multi-page Professional Website',

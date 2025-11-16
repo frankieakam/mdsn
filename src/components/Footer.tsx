@@ -46,6 +46,15 @@ export default function Footer() {
     // }
   ];
 
+  // Trust signals
+  const globalTrustSignals = [
+    "Serving Clients in 15+ Countries",
+    "24/7 Global Support",
+    "International Payment Methods",
+    "GDPR & Data Protection Compliant",
+    "English-Speaking Team"
+  ];
+
   useEffect(() => {
     const handleScroll = () => {
       if (isManuallyClosed) return;
@@ -174,8 +183,15 @@ export default function Footer() {
                 <span className="text-xl font-bold">Super Labs Nigeria</span>
               </div>
               <p className="text-gray-400 leading-relaxed max-w-md">
-                Super Labs Nigeria is a full-service digital growth agency. We provide strategy, design, development, and marketing for businesses/brands/organizations of all tiers and sizes.
+                Super Labs Nigeria is a global digital agency serving clients worldwide. We provide end-to-end digital solutions, strategy, design, development, and marketing for businesses of all sizes across international markets.
               </p>
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {globalTrustSignals.map((signal, idx) => (
+                  <li key={idx} className="text-xs bg-gray-700 px-2 py-1 rounded">
+                    {signal}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* Quick Links */}

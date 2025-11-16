@@ -27,7 +27,7 @@ export default function Hero() {
               We Build & Grow Your Digital Business.
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Super Labs Nigeria is your full-service digital partner. From brand identity to scalable websites, mobile apps, and targeted marketing, we provide the strategy, team & execution to make it happen.
+              Super Labs Nigeria is your global digital partner. From brand identity to scalable websites, mobile apps, and targeted marketing, we provide the strategy, team & execution to serve clients worldwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

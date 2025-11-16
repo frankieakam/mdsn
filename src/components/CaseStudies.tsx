@@ -14,8 +14,8 @@ export default function CaseStudies() {
   const caseStudies = [
     {
       id: 1,
-      title: 'Nokon Bespoke - Premium Tailoring Digital Presence',
-      description: 'Transformed a traditional bespoke tailoring business into a modern digital brand with seamless client consultation workflows and premium online positioning.',
+      title: 'Nokon Bespoke - Premium Tailoring Digital Transformation',
+      description: 'Transformed a traditional bespoke tailoring business into a modern digital brand with seamless client consultation workflows and premium online global positioning.',
       results: ['Streamlined consultation process', 'Professional brand positioning', 'Mobile-optimized client experience'],
       image: '/case-studies/nokon-bespoke.png', 
       category: 'Custom Project',

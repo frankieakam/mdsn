@@ -34,7 +34,7 @@ export default function Process() {
             Our &ldquo;Lab Protocol&rdquo;: Results-Driven Process
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            This builds immense trust and shows you have a system.
+            Our proven 4-step &ldquo;Lab Protocol&rdquo; ensures consistent, high-quality delivery for clients worldwide. Systematic, transparent, and results-driven.
           </p>
         </div>
 
