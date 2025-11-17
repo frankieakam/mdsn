@@ -27,6 +27,7 @@ import awsLogo from '@/assets/tech-logos/aws.png';
 import flutterwaveLogo from '@/assets/tech-logos/flutterwave.png';
 import adobeLogo from '@/assets/tech-logos/adobe.png';
 import spotifyLogo from '@/assets/tech-logos/spotify.png';
+import calendlyLogo from '@/assets/tech-logos/calendly.png';
 
 // Create a mapping object
 const logoMap = {
@@ -54,6 +55,7 @@ const logoMap = {
   flutterwave: flutterwaveLogo,
   adobe: adobeLogo,
   spotify: spotifyLogo,
+  calendly: calendlyLogo,
 };
 
 const techLogos = Object.keys(logoMap);
