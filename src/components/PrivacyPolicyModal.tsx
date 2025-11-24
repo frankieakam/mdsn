@@ -9,6 +9,9 @@ interface PrivacyPolicyModalProps {
   phoneNumber: string;
 }
 
+// date to be updated whenever the privacy policy is changed
+const LAST_UPDATED = 'November 24, 2025';
+
 export default function PrivacyPolicyModal({ isOpen, onClose, emailAddress, phoneNumber }: PrivacyPolicyModalProps) {
   if (!isOpen) return null;
 
@@ -32,15 +35,7 @@ export default function PrivacyPolicyModal({ isOpen, onClose, emailAddress, phon
           <div className="prose prose-lg max-w-none">
             <h3 className="text-xl font-semibold mb-4">MDSN Privacy Policy</h3>
             <p className="text-gray-600 mb-4">
-                Last updated: {new Date().toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric'
-                })} at {new Date().toLocaleTimeString('en-US', { 
-                    hour: '2-digit', 
-                    minute: '2-digit',
-                    hour12: true 
-                })}
+                Last updated: {LAST_UPDATED}
             </p>
             <div className="space-y-6">
               <section>
