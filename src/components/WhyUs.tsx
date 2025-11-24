@@ -22,7 +22,7 @@ export default function WhyUs() {
               We change that.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              As Super Labs Nigeria, we are your single point of contact to solve your puzzles. We architect the solution, assemble the perfect team of specialized experts for your project, and manage everything from concept to launch. You get one streamlined experience and one guaranteed result.&rdquo;
+              As MDSN, we are your single point of contact to solve your puzzles. We architect the solution, assemble the perfect team of specialized experts for your project, and manage everything from concept to launch. You get one streamlined experience and one guaranteed result.&rdquo;
             </p>
 
             <div className="space-y-4">
@@ -74,7 +74,7 @@ export default function WhyUs() {
                 </div>
               </div>
 
-              {/* 2. Super Labs Nigeria Solution (Right Center) - responsive */}
+              {/* 2. MDSN Solution (Right Center) - responsive */}
               <div className="absolute -right-4 md:right-12 top-1/3 transform -translate-y-1/2 z-10">
                 <div className="bg-white border border-blue-500 rounded-2xl p-2 md:p-4 shadow-2xl animate-float max-w-[100px] md:max-w-[140px]">
                   <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center mb-1 md:mb-2 mx-auto">
@@ -85,7 +85,7 @@ export default function WhyUs() {
                       playsInline
                       className="w-full h-full object-cover rounded-full"
                     >
-                      <source src="/logo-animation.mp4" type="video/mp4" />
+                      <source src="/solving-and-scaling-animation.mp4" type="video/mp4" />
                     </video>
                   </div>
                   <span className="text-blue-500 text-xs font-medium block text-center leading-tight">
@@ -130,7 +130,7 @@ export default function WhyUs() {
 
               {/* Connection Lines - For Large Devices */}
               <svg className="hidden md:block absolute inset-0 w-full h-full" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
-                {/* Line 1: Incomplete Puzzle → Super Labs Nigeria */}
+                {/* Line 1: Incomplete Puzzle → MDSN */}
                 <path 
                   d="M160,100 Q250,50 280,180"
                   stroke="#3B82F6" 
@@ -139,7 +139,7 @@ export default function WhyUs() {
                   fill="none"
                   className="animate-pulse"
                 />
-                {/* Line 2: Super Labs Nigeria → Complete Puzzle */}
+                {/* Line 2: MDSN → Complete Puzzle */}
                 <path 
                   d="M290,149 Q299,226 260,240"
                   stroke="#3B82F6" 
@@ -161,7 +161,7 @@ export default function WhyUs() {
 
               {/* Connection Lines - For Mobile Devices */}
               <svg className="md:hidden absolute inset-0 w-full h-full" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
-                {/* Line 1: Incomplete Puzzle (top-left) → Super Labs Nigeria (right-center) */}
+                {/* Line 1: Incomplete Puzzle (top-left) → MDSN (right-center) */}
                 <path 
                   d="M176,60 Q250,80 320,150"
                   stroke="#3B82F6" 
@@ -170,7 +170,7 @@ export default function WhyUs() {
                   className="animate-pulse"
                 />
   
-                {/* Line 2: Super Labs Nigeria → Complete Puzzle (bottom-center) */}
+                {/* Line 2: MDSN → Complete Puzzle (bottom-center) */}
                 <path 
                   d="M300,160 Q300,225 272,245"
                   stroke="#3B82F6" 

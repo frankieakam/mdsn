@@ -124,10 +124,10 @@ export default function Header() {
             onClick={handleLogoClick}
           >
             <div className="relative">
-              <div className="bg-blue-500 rounded-full w-10 h-10 flex items-center justify-center">
+              <div className="rounded-full w-10 h-10 flex items-center justify-center">
                 <Image
-                  src="/logo-removebg-preview.png"
-                  alt="Super Labs Nigeria Logo"
+                  src="/logo.png"
+                  alt="MDSN Logo"
                   width={48}
                   height={48}
                   className="transition-transform group-hover:scale-105"
@@ -136,8 +136,8 @@ export default function Header() {
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-900">Super Labs</span>
-              <span className="text-xs text-gray-500 -mt-1">Nigeria</span>
+              <span className="text-xl font-bold text-gray-900">Multi Digital</span>
+              <span className="text-xs text-gray-500 -mt-1">Solutions Network</span>
             </div>
           </Link>
 

@@ -10,7 +10,7 @@ import PrivacyPolicyModal from './PrivacyPolicyModal';
 export default function Footer() {
   const phoneNumber = '+2348105725081';
   const whatsappNumber = '+2348105725081';
-  const emailAddress = 'superlabs32@gmail.com';
+  const emailAddress = 'wearemdsn@gmail.com';
   const [isSocialVisible, setIsSocialVisible] = useState(false);
   const [isManuallyClosed, setIsManuallyClosed] = useState(false);
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
@@ -18,28 +18,28 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: FaXTwitter,
-      href: 'https://x.com/superlabsng',
+      href: 'https://x.com/wearemdsn',
       color: 'text-black hover:text-white',
       bgColor: 'bg-white hover:bg-black',
       name: 'X'
     },
     {
       icon: FaInstagram,
-      href: 'https://instagram.com/superlabsng',
+      href: 'https://instagram.com/wearemdsn',
       color: 'text-black hover:text-white',
       bgColor: 'bg-white hover:bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF]',
       name: 'Instagram'
     },
     {
       icon: FaTiktok,
-      href: 'https://tiktok.com/@superlabsng',
+      href: 'https://tiktok.com/@wearemdsn',
       color: 'text-black hover:text-white',
       bgColor: 'bg-white hover:bg-black',
       name: 'TikTok'
     },
     // {
     //   icon: FaFacebook,
-    //   href: 'https://facebook.com/superlabsng',
+    //   href: 'https://facebook.com/wearemdsn',
     //   color: 'text-black hover:text-white',
     //   bgColor: 'bg-white hover:bg-[#1877F2]',
     //   name: 'Facebook'
@@ -171,19 +171,19 @@ export default function Footer() {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 flex items-center justify-center">
+                <div className="w-10 h-10 flex items-center justify-center border border-white border-b-2">
                   <Image
                     src="/logo-removebg-preview.png"
-                    alt="Super Labs Nigeria Logo"
+                    alt="MDSN Logo"
                     width={48}
                     height={48}
                     className="object-contain"
                   />
                 </div>
-                <span className="text-xl font-bold">Super Labs Nigeria</span>
+                <span className="text-xl font-bold">Multi Digital Solutions Network</span>
               </div>
               <p className="text-gray-400 leading-relaxed max-w-md">
-                Super Labs Nigeria is a global digital agency serving clients worldwide. We provide end-to-end digital solutions, strategy, design, development, and marketing for businesses of all sizes across international markets.
+                MDSN is a global digital agency serving clients worldwide. We provide end-to-end digital solutions, strategy, design, development, and marketing for businesses of all sizes across international markets.
               </p>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {globalTrustSignals.map((signal, idx) => (
@@ -247,7 +247,7 @@ export default function Footer() {
 
                 {/* WhatsApp */}
                 <a
-                  href={`https://wa.me/${whatsappNumber.replace(/\s/g, '').replace('+', '')}?text=${encodeURIComponent('Hello Frankie! I visited your Super Labs Nigeria website and would like to discuss a project.')}`}
+                  href={`https://wa.me/${whatsappNumber.replace(/\s/g, '').replace('+', '')}?text=${encodeURIComponent('Hello Frankie! I visited your MDSN website and would like to discuss a project.')}`}
                   className="flex items-center space-x-3 text-white hover:text-gray-400 transition-colors group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -281,7 +281,7 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Super Labs Nigeria. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} MDSN. All rights reserved.</p>
           </div>
         </div>
       </footer>

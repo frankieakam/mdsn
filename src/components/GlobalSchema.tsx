@@ -2,19 +2,20 @@ export default function GlobalSchema() {
   const globalSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Super Labs Nigeria",
-    "description": "Global digital agency based in Nigeria providing worldwide web design, development, and SEO services",
-    "url": "https://superlabsng.vercel.app",
+    "name": "MDSN",
+    "description": "Multi Digital Solutions Network - Global digital agency providing worldwide web design, development, and SEO services",
+    "url": "https://wearemdsn.vercel.app",
     "telephone": "+2348105725081",
+    "email": "wearemdsn@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "NG"
     },
     "areaServed": "Worldwide",
     "sameAs": [
-      "https://x.com/superlabsng",
-      "https://instagram.com/superlabsng",
-      "https://tiktok.com/@superlabsng"
+      "https://x.com/wearemdsn",
+      "https://instagram.com/wearemdsn",
+      "https://tiktok.com/@wearemdsn"
     ]
   };
 

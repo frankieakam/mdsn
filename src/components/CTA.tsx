@@ -1,6 +1,6 @@
 export default function CTA() {
   const openCalendly = () => {
-    window.open('https://calendly.com/superlabsng', '_blank', 'noopener,noreferrer');
+    window.open('https://calendly.com/wearemdsn', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -8,7 +8,7 @@ export default function CTA() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Ready to Build Something Super?
+            Ready to Build Something Great?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Stop juggling freelancers and complex projects. Partner with a single team that handles it all.

@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Super Labs Nigeria | Global Digital Agency - Web & App Design, Development & SEO",
-  description: "Super Labs Nigeria: Global digital agency serving worldwide clients. Full-service web and app design, development, and digital marketing. Nigerian excellence, global standards.",
-  keywords: "digital agency, web and app development, SEO services, global web and app design, Nigerian tech agency, international digital marketing",
+  title: "MDSN | Multi Digital Solutions Network - Global Digital Agency - Web & App Design, Development & SEO",
+  description: "MDSN: Multi Digital Solutions Network. Global digital agency serving worldwide clients. Full-service web and app design, development, and digital marketing.",
+  keywords: "digital agency, web and app development, SEO services, global web and app design, multi digital solutions, international digital marketing",
   openGraph: {
-    title: "Super Labs Nigeria - Your Global Digital Growth Partner",
-    description: "Nigerian digital agency serving global clients with world-class web and app design, development, and SEO",
+    title: "MDSN - Your Global Digital Growth Partner",
+    description: "Multi Digital Solutions Network serving global clients with world-class web and app design, development, and SEO",
     type: "website",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Super Labs Nigeria | Global Digital Agency",
+    title: "MDSN | Multi Digital Solutions Network - Global Digital Agency",
     description: "Full-service digital agency serving clients worldwide",
   },
   icons: {

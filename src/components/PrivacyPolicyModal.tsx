@@ -30,7 +30,7 @@ export default function PrivacyPolicyModal({ isOpen, onClose, emailAddress, phon
         {/* Modal Content */}
         <div className="p-6 overflow-y-auto max-h-[60vh]">
           <div className="prose prose-lg max-w-none">
-            <h3 className="text-xl font-semibold mb-4">Super Labs Nigeria Privacy Policy</h3>
+            <h3 className="text-xl font-semibold mb-4">MDSN Privacy Policy</h3>
             <p className="text-gray-600 mb-4">
                 Last updated: {new Date().toLocaleDateString('en-US', { 
                     year: 'numeric', 

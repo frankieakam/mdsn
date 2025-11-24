@@ -66,7 +66,7 @@ export default function CaseStudies() {
             Success Stories
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover how we&apos;ve helped businesses transform their digital presence and achieve remarkable results.
+            Discover how MDSN has helped businesses transform their digital presence and achieve remarkable results.
           </p>
         </div>
 

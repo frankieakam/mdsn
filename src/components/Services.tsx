@@ -18,7 +18,7 @@ export default function Services() {
       price: '$2,500 - $4,500',
       timeline: '2-3 weeks',
       buttonText: 'Get Quote',
-      calendlyUrl: 'https://calendly.com/superlabsng/digital-storefront-consultation',
+      calendlyUrl: 'https://calendly.com/wearemdsn/mdsn-project-consultation',
       paymentPlan: '50% upfront, 50% on delivery',
       monthlyRetainer: '$299/month for ongoing support & SEO',
       popularAddons: [
@@ -41,7 +41,7 @@ export default function Services() {
       price: '$6,500 - $12,000',
       timeline: '4-6 weeks',
       buttonText: 'Get Quote',
-      calendlyUrl: 'https://calendly.com/superlabsng/the-growth-engine-consultation',
+      calendlyUrl: 'https://calendly.com/wearemdsn/mdsn-project-consultation',
       paymentPlan: '40% upfront, 30% mid-project, 30% on delivery',
       monthlyRetainer: '$799/month for marketing & maintenance',
       popularAddons: [
@@ -64,7 +64,7 @@ export default function Services() {
       price: '$3,500 - $6,000',
       timeline: '3-4 weeks',
       buttonText: 'Get Quote',
-      calendlyUrl: 'https://calendly.com/superlabsng/the-author-suite-consultation',
+      calendlyUrl: 'https://calendly.com/wearemdsn/mdsn-project-consultation',
       paymentPlan: '50% upfront, 50% on delivery',
       monthlyRetainer: '$199/month for book marketing',
       popularAddons: [
@@ -87,7 +87,7 @@ export default function Services() {
       price: '$15,000+',
       timeline: '8-12 weeks',
       buttonText: 'Get Quote',
-      calendlyUrl: 'https://calendly.com/superlabsng/the-enterprise-hub-consultation',
+      calendlyUrl: 'https://calendly.com/wearemdsn/mdsn-project-consultation',
       paymentPlan: 'Custom payment schedule available',
       monthlyRetainer: 'Custom retainer based on needs',
       popularAddons: [
@@ -211,7 +211,7 @@ export default function Services() {
               </div>
             </div>
             <button
-              onClick={() => openCalendly('https://calendly.com/superlabsng/custom-project-consultation')}
+              onClick={() => openCalendly('https://calendly.com/wearemdsn/mdsn-project-consultation')}
               className="inline-block border border-blue-500 text-blue-500 px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors"
             >
               Discuss Your Custom Project

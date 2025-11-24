@@ -31,10 +31,12 @@ export default function Process() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-0">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our &ldquo;Lab Protocol&rdquo;: Results-Driven Process
+            {/* Our &ldquo;Lab Protocol&rdquo;: Results-Driven Process */}
+            Our Proven Results-Driven Process
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Our proven 4-step &ldquo;Lab Protocol&rdquo; ensures consistent, high-quality delivery for clients worldwide. Systematic, transparent, and results-driven.
+            {/* Our proven 4-step &ldquo;Lab Protocol&rdquo; ensures consistent, high-quality delivery for clients worldwide. Systematic, transparent, and results-driven. */}
+            Our proven 4-step process ensures consistent, high-quality delivery for clients worldwide. Systematic, transparent, and results-driven.
           </p>
         </div>
 

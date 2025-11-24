@@ -46,7 +46,7 @@ export default function FrankieConsultant() {
               <div className="relative w-full h-full bg-linear-to-br from-blue-500 to-purple-600">
                 <Image
                   src="/frankie-cartoon.png"
-                  alt="Frankie - Super Labs Nigeria Digital Consultant"
+                  alt="Frankie - MDSN Digital Consultant"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 64px, 80px"
