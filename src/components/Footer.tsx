@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaMobileAlt, FaWhatsapp, FaEnvelope, FaInstagram, FaTiktok, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { FaMobileAlt, FaWhatsapp, FaEnvelope, FaInstagram, FaLinkedin, FaTiktok, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { useEffect, useState } from 'react';
 import PrivacyPolicyModal from './PrivacyPolicyModal';
@@ -29,6 +29,13 @@ export default function Footer() {
       color: 'text-black hover:text-white',
       bgColor: 'bg-white hover:bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF]',
       name: 'Instagram'
+    },
+    {
+      icon: FaLinkedin,
+      href: 'https://www.linkedin.com/company/wearemdsn',
+      color: 'text-black hover:text-white',
+      bgColor: 'bg-white hover:bg-[#1877F2]',
+      name: 'LinkedIn'
     },
     {
       icon: FaTiktok,
