@@ -30,10 +30,10 @@ export default function Services() {
 
   // Nigerian market price estimates for main packages
   const nigerianMarketPrices: Record<string, string> = {
-    'The Digital Storefront': '₦400,000 - ₦900,000',
-    'The Growth Engine': '₦1,500,000 - ₦3,000,000',
-    'The Author Suite': '₦600,000 - ₦1,200,000',
-    'The Enterprise Hub': '₦4,000,000+'
+    'The Digital Storefront': '₦400K - ₦900K',
+    'The Growth Engine': '₦1.5M - ₦3M',
+    'The Author Suite': '₦600K - ₦1.2M',
+    'The Enterprise Hub': '₦4M+'
   };
 
   // Nigerian market price estimates for monthly retainers
