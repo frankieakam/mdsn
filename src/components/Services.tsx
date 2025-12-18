@@ -64,8 +64,8 @@ export default function Services() {
       monthlyRetainer: '$299/month for ongoing support & SEO',
       popularAddons: [
         'Additional Pages: $250/page',
-        'E-commerce Setup: +$1,500',
-        'Advanced SEO: +$500/month'
+        'E-commerce Setup: $1,500+',
+        'Advanced SEO: $500+/month'
       ]
     },
     {
@@ -87,8 +87,8 @@ export default function Services() {
       monthlyRetainer: '$799/month for marketing & maintenance',
       popularAddons: [
         'Custom Features: $150/hour',
-        'Advanced Analytics: +$300/month',
-        'Content Creation: +$1,000/month'
+        'Advanced Analytics: $300+/month',
+        'Content Creation: $1,000+/month'
       ]
     },
     {
@@ -109,9 +109,9 @@ export default function Services() {
       paymentPlan: '50% upfront, 50% on delivery',
       monthlyRetainer: '$199/month for book marketing',
       popularAddons: [
-        'Social Media Setup: +$750',
-        'Email List Building: +$500',
-        'Book Promotion: +$1,000/campaign'
+        'Social Media Setup: $750+',
+        'Email List Building: $500+',
+        'Book Promotion: $1,000+/campaign'
       ]
     },
     {
@@ -133,8 +133,8 @@ export default function Services() {
       monthlyRetainer: 'Custom retainer based on needs',
       popularAddons: [
         'Team Training: $2,000',
-        'Advanced Security: +$1,500',
-        '24/7 Support: +$1,000/month'
+        'Advanced Security: $1,500+',
+        '24/7 Support: $1,000+/month'
       ]
     }
   ];
