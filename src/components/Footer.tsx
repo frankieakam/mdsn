@@ -2,7 +2,13 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaMobileAlt, FaWhatsapp, FaEnvelope, FaInstagram, FaLinkedin, FaTiktok, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { 
+  FaMobileAlt, FaWhatsapp, 
+  FaEnvelope, FaInstagram, 
+  FaLinkedin, FaTiktok, 
+  FaFacebook, FaArrowLeft, 
+  FaArrowRight 
+} from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { useEffect, useState } from 'react';
 import PrivacyPolicyModal from './PrivacyPolicyModal';
@@ -44,13 +50,13 @@ export default function Footer() {
       bgColor: 'bg-white hover:bg-black',
       name: 'TikTok'
     },
-    // {
-    //   icon: FaFacebook,
-    //   href: 'https://facebook.com/wearemdsn',
-    //   color: 'text-black hover:text-white',
-    //   bgColor: 'bg-white hover:bg-[#1877F2]',
-    //   name: 'Facebook'
-    // }
+    {
+      icon: FaFacebook,
+      href: 'https://facebook.com/wearemdsn',
+      color: 'text-black hover:text-white',
+      bgColor: 'bg-white hover:bg-[#1877F2]',
+      name: 'Facebook'
+    }
   ];
 
   // Trust signals
