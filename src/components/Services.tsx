@@ -48,7 +48,7 @@ export default function Services() {
     {
       icon: Store,
       title: 'The Digital Storefront',
-      for: 'Small Businesses Worldwide, International Freelancers',
+      for: 'SMEs, Creators, New Brands',
       includes: [
         'Professional Branding',
         '5-Page Website',
@@ -71,12 +71,12 @@ export default function Services() {
     {
       icon: TrendingUp,
       title: 'The Growth Engine',
-      for: 'Global E-commerce Stores, International SaaS Companies, Online Coaches',
+      for: 'Growth-stage Businesses',
       includes: [
         'Everything in Digital Storefront',
         'E-commerce/Premium Business Setup',
-        'Digital Marketing Strategy',
-        'Email Marketing Integration',
+        'Marketing Funnels',
+        'Email Automation and Analytics',
         '3 Months Support'
       ],
       price: '$6,500 - $12,000',
@@ -94,11 +94,11 @@ export default function Services() {
     {
       icon: BookOpen,
       title: 'The Author Suite',
-      for: 'International Authors, Global Speakers and Influencers',
+      for: 'Writers, Educators, Thought-Leaders',
       includes: [
         'Personal Branding',
         'Author Website',
-        'Amazon Kindle Publishing & Marketing',
+        'Kindle Publishing & Marketing',
         'SEO for Your Name',
         '2 Months Support'
       ],
@@ -117,12 +117,12 @@ export default function Services() {
     {
       icon: Building2,
       title: 'The Enterprise Hub',
-      for: 'Multinational NGOs, Global Corporations',
+      for: 'NGOs, Corporates, Large Orgs',
       includes: [
-        'Corporate Branding & Identity',
+        'Enterprise-grade Development',
         'Multi-page Professional Website',
         'Advanced SEO & Content Strategy',
-        'Donor/Client Portal Setup',
+        'Custom Portals/CRM Integrations',
         '6 Months Support & Maintenance'
       ],
       price: '$15,000+',
