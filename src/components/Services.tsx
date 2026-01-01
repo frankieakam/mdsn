@@ -122,7 +122,7 @@ export default function Services() {
         'Enterprise-grade Development',
         'Multi-page Professional Website',
         'Advanced SEO & Content Strategy',
-        'Custom Portals/CRM Integrations',
+        'Custom Portals & CRM Integrations',
         '6 Months Support & Maintenance'
       ],
       price: '$15,000+',
