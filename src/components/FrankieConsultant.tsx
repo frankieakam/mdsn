@@ -45,7 +45,7 @@ export default function FrankieConsultant() {
               {/* Frankie Cartoon Image */}
               <div className="relative w-full h-full bg-linear-to-br from-blue-500 to-purple-600">
                 <Image
-                  src="/Frankie-consultant.jpg"
+                  src="/Frankie-consultant.png"
                   alt="Frankie - MDSN Digital Consultant"
                   fill
                   className="object-cover object-top"
